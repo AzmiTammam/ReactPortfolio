@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("../../Assets/Fonts/Inter-Thin.woff2?v=3.19") format("woff2"),
+    url("../../Assets/Fonts/Inter-Thin.woff?v=3.19") format("woff");
+}
+
+body {
+  font-family: "Inter";
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 25px 25px;
+  border-bottom: 1px solid #c4c4c411;
+}
+
+.navLinks ul {
+  list-style: none;
+}
+
+.navLinks ul li {
+  display: inline-flex;
+  padding: 0 10px;
+  font-size: 1em;
+}
+
+.navLinks ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navLinks ul li a:hover {
+  color: #c4c4c4;
+  transition: all 0.3s ease-in;
+}
