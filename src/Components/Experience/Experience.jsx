@@ -6,24 +6,26 @@ import Orange from "../../Data/orange";
 import Freelance from "../../Data/freelance";
 
 function Experience() {
-      const [hidden, setHidden] = useState(true);
+  const [hidden, setHidden] = useState(true);
 
   return (
     <div className="experience">
-      <aside className="companyName">
-        <ul>
-          <li className="active" id="orange">
-            <button onClick={() => setHidden(true)}>Orange</button>
-          </li>
+          <h5 className="expTitle">Experience</h5>
+      <div className="expContainer">
+        <aside className="companyName">
+          <ul>
+            <li className={hidden ? "active" : null} id="orange">
+              <button onClick={() => setHidden(true)}>Orange</button>
+            </li>
 
-          <li id="freelance">
-            <button onClick={() => setHidden(false)}>Freelance</button>
-          </li>
-        </ul>
-      </aside>
-      
-      {!hidden ?  <Freelance /> : <Orange /> }
+            <li className={hidden ? null : "active"} id="freelance">
+              <button onClick={() => setHidden(false)}>Freelance</button>
+            </li>
+          </ul>
+        </aside>
 
+        {!hidden ? <Freelance /> : <Orange />}
+      </div>
     </div>
   );
 }

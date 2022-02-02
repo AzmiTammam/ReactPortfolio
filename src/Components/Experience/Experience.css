@@ -1,17 +1,24 @@
 .experience {
+  padding: 90px 0;
+  position: relative;
+}
+.expTitle {
+  display: inline;
+  font-size: 18px;
+  margin-left: 50px;
+}
+.expContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  padding: 115px 0;
-  position: relative;
 }
 
 .experience .companyName {
   border-left: 2px solid #1f1e1e;
   position: absolute;
   left: 45px;
-  top: 145px;
+  top: 150px;
 }
 
 .experience .companyName ul {
