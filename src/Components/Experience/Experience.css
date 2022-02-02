@@ -68,3 +68,16 @@
 .experience .companyInfo .positionBio {
       margin-top: 25px;
 }
+
+@media (max-width: 1030px) {
+  .expContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .experience .companyName {
+    border-left: 2px solid #1f1e1e;
+    position: unset;
+  }
+}
