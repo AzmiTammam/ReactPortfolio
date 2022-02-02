@@ -15,9 +15,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1a1a1a;
+  background-color: #111111;
   padding: 25px 25px;
-  border-bottom: 1px solid #c4c4c411;
+  border-bottom: 1px solid #c4c4c40c;
 }
 
 .navLinks ul {
