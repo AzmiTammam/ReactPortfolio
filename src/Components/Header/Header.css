@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-*{
+* {
   text-decoration: none !important;
 }
 header {
@@ -20,8 +20,8 @@ header {
 .infoSection .title h1 {
   background: linear-gradient(
     89.81deg,
-    #F4426C  1.72%,
-    #9845E8 54.05%,
+    #f4426c 1.72%,
+    #9845e8 54.05%,
     #33d2ff 99.78%
   );
   -webkit-text-fill-color: transparent;
@@ -48,7 +48,7 @@ header {
 }
 
 .infoSection .socialLinks ul a {
-      margin-right: 10px;
+  margin-right: 10px;
 }
 
 .infoSection .socialLinks ul li {
@@ -58,24 +58,49 @@ header {
   padding: 10px 20px;
   border: 2px solid transparent;
   border-radius: 5px;
-  transition: all .3s ease-in;
-
+  transition: all 0.3s ease-in;
 }
 .infoSection .socialLinks ul li:nth-last-child(odd) {
   background: linear-gradient(#111111, #111111) padding-box,
-    linear-gradient(to right, #F4426C94, #6618b494) border-box;
+    linear-gradient(to right, #f4426c94, #6618b494) border-box;
 }
 
 .infoSection .socialLinks ul li span {
   padding-right: 5px;
 }
 
-.infoSection .socialLinks ul li:hover{
+.infoSection .socialLinks ul li:hover {
   background: linear-gradient(#111111, #111111) padding-box,
-  linear-gradient(to right, #F4426C, #6964de) border-box;
-  transition: all .3s ease-in;
+    linear-gradient(to right, #f4426c, #6964de) border-box;
+  transition: all 0.3s ease-in;
 }
 
 .infoSection .about {
-      max-width: 40vw;
+  max-width: 40vw;
+}
+
+@media (max-width: 1024px) {
+  .infoSection .about {
+    max-width: 90%;
+  }
+  .imgSection img {
+    max-width: 300px;
+  }
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .infoSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 25px;
+  }
+  .infoSection .title h1 {
+    font-size: 35px;
+    display: block;
+    margin: 0 auto;
+  }
 }
