@@ -25,7 +25,7 @@ function Header() {
     });
   });
   return (
-    <header>
+    <header id="#header">
       <div className="imgSection">
         <img src={myImg} className="myImg" alt="my img" />
       </div>
