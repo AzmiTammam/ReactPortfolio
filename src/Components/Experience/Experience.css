@@ -4,10 +4,14 @@
   justify-content: space-evenly;
   align-items: center;
   padding: 115px 0;
+  position: relative;
 }
 
 .experience .companyName {
   border-left: 2px solid #1f1e1e;
+  position: absolute;
+  left: 45px;
+  top: 145px;
 }
 
 .experience .companyName ul {
@@ -19,7 +23,7 @@
   margin: 0 0 4px;
 }
 
-.experience .companyName ul li input {
+.experience .companyName ul li button {
       background-color: transparent;
       border: 0;
       color: white;
@@ -28,10 +32,6 @@
       cursor: pointer;
 }
 
-.experience .companyName ul a {
-  color: white;
-  text-decoration: none;
-}
 
 .experience .companyInfo {
   text-align: left;
