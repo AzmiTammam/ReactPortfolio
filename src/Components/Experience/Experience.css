@@ -1,0 +1,55 @@
+.experience {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.experience .companyName {
+  border-left: 2px solid #1f1e1e;
+}
+
+.experience .companyName ul {
+  list-style: none;
+}
+
+.experience .companyName ul li {
+  padding: 10px 35px 10px 20px;
+  margin: 0 0 4px;
+}
+
+.experience .companyName ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.experience .companyInfo {
+  text-align: left;
+  margin-top: 25px;
+  min-width: 60%;
+  max-width: 60%;
+}
+
+.experience .companyInfo .position {
+  text-align: left;
+}
+
+.active {
+  background-color: #1f1e1e;
+  border-left: 2px solid #fff;
+}
+
+.experience .companyInfo .positionData {
+      display: flex;
+      justify-content: space-between;
+}
+
+.experience .companyInfo .positionAddress {
+      margin-top: 25px;
+      color: #6CACE4;
+}
+
+.experience .companyInfo .positionBio {
+      margin-top: 25px;
+}
