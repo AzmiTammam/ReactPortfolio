@@ -20,8 +20,8 @@ header {
 .infoSection .title h1 {
   background: linear-gradient(
     89.81deg,
-    #F4426C  -1.72%,
-    #6518b4 54.05%,
+    #F4426C  1.72%,
+    #9845E8 54.05%,
     #33d2ff 99.78%
   );
   -webkit-text-fill-color: transparent;
@@ -63,7 +63,7 @@ header {
 }
 .infoSection .socialLinks ul li:nth-of-type(odd) {
   background: linear-gradient(#111111, #111111) padding-box,
-    linear-gradient(to right, #6964de, #fca6e9) border-box;
+    linear-gradient(to right, #F4426C, #fca6e9) border-box;
 }
 .infoSection .socialLinks ul li span {
   padding-right: 5px;
@@ -71,7 +71,7 @@ header {
 
 .infoSection .socialLinks ul li:hover{
   background: linear-gradient(#111111, #111111) padding-box,
-  linear-gradient(to right, #F4426C, #6964de) border-box;
+  linear-gradient(to right, #F4426C,#fca6e9,#d24074, #6964de) border-box;
   transition: all .3s ease-in;
 }
 
