@@ -1,10 +1,13 @@
 import react from "react";
 import reactDom from "react-dom";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
+
 import './Navbar.css'
 import { MdOutlineDarkMode } from "react-icons/md";
 
 function Navbar() {
+
+
       return(
             <nav>
                   <div className="headTitle">
@@ -15,7 +18,7 @@ function Navbar() {
                   <div className="navLinks">
                   <ul>
                         <li><Link to="#projects">Projects</Link></li>
-                        <li><Link to="#resume">Resume</Link></li>
+                        <li><Link to="#header"  spy={true} smooth={true} offset={50} duration={500}>Resume</Link></li>
                         <li><Link to="#contact">Contact</Link></li>
                         <li><MdOutlineDarkMode /></li>
                   </ul>
