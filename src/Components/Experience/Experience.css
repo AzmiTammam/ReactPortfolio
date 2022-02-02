@@ -1,5 +1,5 @@
 .experience {
-  padding: 90px 0;
+  padding: 90px 0 120px;
   position: relative;
 }
 .expTitle {
@@ -39,7 +39,6 @@
       cursor: pointer;
 }
 
-
 .experience .companyInfo {
   text-align: left;
   margin-top: 25px;
@@ -68,8 +67,4 @@
 
 .experience .companyInfo .positionBio {
       margin-top: 25px;
-}
-
-.hideExp {
-      display: none;
 }
