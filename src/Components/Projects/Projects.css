@@ -8,7 +8,7 @@
   position: relative;
 }
 
-.projects::before{
+/* .projects::before{
   content: " ";
   display: block;
   width: 550px;
@@ -26,7 +26,7 @@
   background: linear-gradient(to right, #f4426c, #6964de) padding-box;
   margin: 0 auto 55px;
   border-radius: 35%;
-}
+} */
 
 .projects h5 {
   margin-left: 70px;
@@ -82,4 +82,50 @@
 
 .containerProjects .projectCard .buttons {
   padding: 0 0 10px;
+}
+
+@media (max-width: 768px) {
+  .containerProjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px 35px 150px;
+    flex-wrap: wrap;
+    max-width: 98vw;
+    position: relative;
+  }
+  .containerProjects .projectCard p.description {
+    padding: 10px 10px 10px 0px;
+    color: #c4c4c4;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (max-width: 426px) {
+  .containerProjects {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding: 70px 0px 70px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    position: relative;
+    align-content: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .containerProjects {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding: 70px 0px 70px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    position: relative;
+    align-content: center;
+  }
 }
