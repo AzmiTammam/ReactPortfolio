@@ -41,17 +41,17 @@ header {
   font-size: 16px;
 }
 
-.infoSection .socialLinks ul {
+.socialLinks ul {
   margin-top: 25px;
   list-style: none;
   display: inline-flex;
 }
 
-.infoSection .socialLinks ul a {
+.socialLinks ul a {
   margin-right: 10px;
 }
 
-.infoSection .socialLinks ul li {
+.socialLinks ul li {
   background: linear-gradient(#111111, #111111) padding-box,
     linear-gradient(to right, #d24074, #6518b4) border-box;
   color: #fff;
@@ -60,16 +60,16 @@ header {
   border-radius: 5px;
   transition: all 0.3s ease-in;
 }
-.infoSection .socialLinks ul li:nth-last-child(odd) {
+.socialLinks ul li:nth-last-child(odd) {
   background: linear-gradient(#111111, #111111) padding-box,
     linear-gradient(to right, #f4426c94, #6618b494) border-box;
 }
 
-.infoSection .socialLinks ul li span {
+.socialLinks ul li span {
   padding-right: 5px;
 }
 
-.infoSection .socialLinks ul li:hover {
+.socialLinks ul li:hover {
   background: linear-gradient(#111111, #111111) padding-box,
     linear-gradient(to right, #f4426c, #6964de) border-box;
   transition: all 0.3s ease-in;
