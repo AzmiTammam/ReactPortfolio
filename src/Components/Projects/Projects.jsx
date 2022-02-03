@@ -5,7 +5,7 @@ import { AiOutlineLink } from "react-icons/ai";
 
 function Projects() {
   return (
-    <div className="projects">
+    <div className="projects" id="#projects">
       <h5>PROJECTS</h5>
       <div className="containerProjects">
         {projectData.map((project) => (
