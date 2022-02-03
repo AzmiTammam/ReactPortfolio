@@ -14,6 +14,7 @@ function Projects() {
             <div className="img">
               <img src={project.img} loading="lazy" alt={project.imgAlt} />
             </div>
+            <div className="body">
             <div className="info">
               <p className="title">{project.title}</p>
               <p className="description">{project.description}</p>
@@ -36,6 +37,7 @@ function Projects() {
                   <a href={project.repoLink} target="_blank"> <li> <span><AiOutlineLink /></span>Live Demo</li> </a>
                 </ul>
               </div>
+            </div>
             </div>
           </div>
         ))}
