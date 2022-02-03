@@ -9,7 +9,7 @@ function Experience() {
   const [hidden, setHidden] = useState(true);
 
   return (
-    <div className="experience">
+    <div className="experience" id="#experience">
           <h5 className="expTitle">Experience</h5>
       <div className="expContainer">
         <aside className="companyName">
