@@ -104,3 +104,13 @@ header {
     margin: 0 auto;
   }
 }
+
+@media (max-width: 426px) {
+  .socialLinks ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .socialLinks ul li {
+    margin: 5px 0;
+  }
+}
