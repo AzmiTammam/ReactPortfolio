@@ -1,0 +1,24 @@
+footer {
+      display: flex;
+      flex-direction: column;
+      background-color: #111111;
+}
+
+footer .topFooter {
+      padding: 120px 0;
+}
+
+footer .copyright {
+      background-color: #0a0a0a;
+      padding: 15px 0;
+}
+
+footer .copyright p {
+      text-align: center;
+      font-size: 14px;
+}
+
+footer .copyright p a {
+      font-size: 14px;
+      color: #6cace4;
+}
