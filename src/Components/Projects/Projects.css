@@ -5,6 +5,21 @@
   padding: 70px 75px 150px;
   flex-wrap: wrap;
   max-width: 98vw;
+  position: relative;
+}
+
+.projects h5 {
+  margin-left: 70px;
+  font-size: 18px;
+}
+
+.projects h5::after {
+      content: " ";
+      display: block;
+      width: 75px;
+      height: 2px;
+      background: linear-gradient(to right, #f4426c, #6964de) padding-box;
+      margin-top: 4px;
 }
 
 .containerProjects .projectCard {

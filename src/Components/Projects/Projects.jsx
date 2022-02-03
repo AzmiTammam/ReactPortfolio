@@ -5,6 +5,7 @@ import { AiOutlineLink } from "react-icons/ai";
 function Projects() {
       return (
             <div className="projects">
+                  <h5>PROJECTS</h5>
                   <div className="containerProjects">
                         <div className="projectCard">
                               <div className="img">
@@ -31,6 +32,7 @@ function Projects() {
                               </div>
                               </div>
                         </div>
+
                   </div>
             </div>
       )
