@@ -46,13 +46,14 @@
   max-width: 302px;
   max-height: 375px;
   padding: 10px 0 10px;
-  border: 1px solid rgb(24, 24, 24);
+  border: 1px solid rgba(17, 17, 17, 0.699);
+  background-color: rgba(17, 17, 17, 0.247);
   margin-bottom: 5px;
 }
 
 .containerProjects .projectCard img {
   max-width: 300px;
-  border-bottom: 1px solid #272727;
+  border-bottom: 1px solid rgb(17, 17, 17);
 }
 
 .containerProjects .projectCard p.title {
