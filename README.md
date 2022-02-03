@@ -3,8 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Copyright
-
-                  <p>Copyright © 2022  <a href="https://twitter.com/azzmmii" target="_blank">Azmi Al-Tammam</a>, AT All rights reserved.</p>
+<p>Copyright © 2022  <a href="https://twitter.com/azzmmii" target="_blank">Azmi Al-Tammam</a>, AT All rights reserved.</p>
 
 ### `npm start`
 
