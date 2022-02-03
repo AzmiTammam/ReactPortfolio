@@ -8,6 +8,26 @@
   position: relative;
 }
 
+.projects::before{
+  content: " ";
+  display: block;
+  width: 550px;
+  height: 1.5px;
+  background: linear-gradient(to right, #f4426c, #6964de) padding-box;
+  margin: 0 auto 55px;
+  border-radius: 35%;
+}
+
+.projects::after{
+  content: " ";
+  display: block;
+  width: 550px;
+  height: 1.5px;
+  background: linear-gradient(to right, #f4426c, #6964de) padding-box;
+  margin: 0 auto 55px;
+  border-radius: 35%;
+}
+
 .projects h5 {
   margin-left: 70px;
   font-size: 18px;
@@ -24,6 +44,7 @@
 
 .containerProjects .projectCard {
   max-width: 302px;
+  max-height: 400px;
   padding: 10px 0 10px;
 }
 
@@ -41,6 +62,8 @@
   padding: 10px 10px 10px 0px;
   color: #c4c4c4;
   font-size: 14px;
+  overflow: hidden;
+  white-space: pre-line;
 }
 
 .containerProjects .projectCard .tags ul {

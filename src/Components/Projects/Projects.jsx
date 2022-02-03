@@ -1,41 +1,46 @@
-import React from 'react';
-import './Projects.css'
+import React from "react";
+import "./Projects.css";
+import projectData from "../../Data/projectsData";
 import { AiOutlineLink } from "react-icons/ai";
 
 function Projects() {
-      return (
-            <div className="projects">
-                  <h5>PROJECTS</h5>
-                  <div className="containerProjects">
-                        <div className="projectCard">
-                              <div className="img">
-                              <img src="https://trio.dev/static/46a74b0f7c9b47353ea207a29731bc51/263a75529a1752b75d64f9f21fd07c92.jpg" alt="project" />
-                              </div>
-                              <div className="info">
-                              <p className='title'>Portfolio Project</p>
-                              <p className='description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, quis?</p>
-                              <div className="tags">
-                              <ul>
-                                    <li>React</li>
-                                    <li>JavaScript</li>
-                                    <li>CSS</li>
-                              </ul>
-                              </div>
-                              </div>
-                              <div className="buttons">
-                              <div className="socialLinks">
-                              <ul>
-                              <a href="/" target="_blank" >
-                              <li><span><AiOutlineLink /></span> Live Demo</li>
-                              </a>
-                              </ul>
-                              </div>
-                              </div>
-                        </div>
-
-                  </div>
+  return (
+    <div className="projects">
+      <h5>PROJECTS</h5>
+      <div className="containerProjects">
+        {projectData.map((project) => (
+          <div className="projectCard" key={project.id}>
+            <div className="img">
+              <img src={project.img} loading="lazy" alt={project.imgAlt} />
             </div>
-      )
+            <div className="info">
+              <p className="title">{project.title}</p>
+              <p className="description">{project.description}</p>
+              <div className="tags">
+                  {project.tags.map((tags) =>(
+                        <ul key={tags.id}>
+                              {
+                                    tags.tagss.map((tag1) =>{
+                                          return <li>{tag1}</li>
+                                          
+                                    })
+                              }
+                        </ul>
+                  ))}
+              </div>
+            </div>
+            <div className="buttons">
+              <div className="socialLinks">
+                <ul>
+                  <a href={project.repoLink} target="_blank"> <li> <span><AiOutlineLink /></span>Live Demo</li> </a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 }
 
 export default Projects;
