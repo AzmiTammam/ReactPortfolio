@@ -118,6 +118,22 @@
     position: relative;
     align-content: center;
   }
+
+  .containerProjects .projectCard img {
+    max-width: 90vw;
+  }
+
+  .containerProjects .projectCard {
+    max-width: 90vw;
+    max-height: 98vh;
+  }
+
+  .containerProjects .projectCard .body .buttons {
+    max-width: 60%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 
 @media (max-width: 375px) {
