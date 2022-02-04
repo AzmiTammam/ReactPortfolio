@@ -101,9 +101,11 @@
   .experience .companyInfo .positionData, .experience .companyInfo .positionAddress {
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2em;
   }
   .experience .companyInfo .positionBio {
     font-size: 0.9em;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2em;
   }
 }
