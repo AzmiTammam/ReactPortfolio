@@ -99,9 +99,9 @@
     width: 99vw;
   }
   .experience .companyInfo .positionData, .experience .companyInfo .positionAddress {
-    font-size: 0.9em;
+    font-size: 1em;
   }
   .experience .companyInfo .positionBio {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 }
