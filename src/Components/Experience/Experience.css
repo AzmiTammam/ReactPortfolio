@@ -31,12 +31,12 @@
 }
 
 .experience .companyName ul li button {
-      background-color: transparent;
-      border: 0;
-      color: white;
-      font-size: 16px;
-      font-family: inter;
-      cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  color: white;
+  font-size: 16px;
+  font-family: inter;
+  cursor: pointer;
 }
 
 .experience .companyInfo {
@@ -56,17 +56,17 @@
 }
 
 .experience .companyInfo .positionData {
-      display: flex;
-      justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .experience .companyInfo .positionAddress {
-      margin-top: 25px;
-      color: #6CACE4;
+  margin-top: 25px;
+  color: #6cace4;
 }
 
 .experience .companyInfo .positionBio {
-      margin-top: 25px;
+  margin-top: 25px;
 }
 
 @media (max-width: 1030px) {
@@ -79,5 +79,24 @@
   .experience .companyName {
     border-left: 2px solid #1f1e1e;
     position: unset;
+  }
+}
+
+@media (max-width: 426px) {
+  .experience .companyInfo {
+    text-align: left;
+    margin-top: 25px;
+    min-width: 60%;
+    max-width: 95%;
+  }
+  .experience .companyName {
+    border-left: 2px solid #1f1e1e;
+    margin: 25px 0;
+  }
+
+  .experience .companyName ul li {
+    padding: 15px 55px 15px 20px;
+    margin: 0 0 4px;
+    width: 99vw;
   }
 }
