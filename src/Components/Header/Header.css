@@ -144,8 +144,6 @@ header {
   header .socialLinks ul a {
     margin: 5px 0;
     min-width: 48vw;
-    padding-right: 5px;
     max-width: 48vw;
-
   }
 }
