@@ -1,5 +1,4 @@
 import react from "react";
-import reactDom from "react-dom";
 import "./Header.css";
 import myImg from "../../Images/myImg.JPEG";
 import $ from "jquery";
@@ -39,7 +38,7 @@ function Header() {
       </div>
       <div className="socialLinks">
             <ul>
-                  <a href={resume} target="_blank" >
+                  <a href={resume} target="_blank" rel="noreferrer" >
                         <li><span><BsDownload /></span> Download Resume</li>
                         </a>
                   <a href="mailto:azmiTammam@gmail.com"><li><span><HiOutlineMail /></span> Send an email</li></a>
