@@ -112,13 +112,13 @@ header {
   header .socialLinks ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: row;
   }
   header .socialLinks ul a {
     margin: 5px 0;
-    max-width: 45vw;
-    min-width: 45vw;
+    min-width: 42vw;
+    max-width: 42vw;
   }
   header .socialLinks ul li {
     padding: 10px 0px 10px 7px;
@@ -134,5 +134,8 @@ header {
   }
   .infoSection .title {
     width: 95vw;
+  }
+  .infoSection {
+    width: 100vw;
   }
 }
