@@ -113,4 +113,15 @@ header {
   .socialLinks ul li {
     margin: 5px 0;
   }
+  .infoSection .about {
+    max-width: 95vw;
+    margin-top: 7px;
+    color: rgb(236, 236, 236);
+  }
+  .infoSection .title h5 {
+    margin: 7px 0;
+  }
+  .infoSection .title {
+    width: 95vw;
+  }
 }
