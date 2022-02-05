@@ -139,6 +139,10 @@
     margin-left: 15px;
     font-size: 1.1em;
   }
+  .projects .socialLinks ul li a {
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 375px) {
@@ -151,5 +155,9 @@
     max-width: 100%;
     position: relative;
     align-content: center;
+  }
+  .projects .socialLinks ul li a {
+    padding: 10px 20px 10px 20px;
+    width: 100%;
   }
 }

@@ -34,7 +34,11 @@ function Projects() {
             <div className="buttons">
               <div className="socialLinks">
                 <ul>
-                  <a href={project.repoLink} target="_blank" rel="noreferrer"> <li> <span><AiOutlineLink /></span>Live Demo</li> </a>
+                  <li>
+                  <a href={project.repoLink} target="_blank" rel="noreferrer"> 
+                    <span><AiOutlineLink /></span>Live Demo
+                    </a>
+                    </li> 
                 </ul>
               </div>
             </div>
