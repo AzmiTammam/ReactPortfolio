@@ -7,7 +7,7 @@ function Projects() {
   return (
     <div className="projects" id="#projects">
       <span></span>
-      <h5>PROJECTS</h5>
+      <h1>PROJECTS</h1>
       <div className="containerProjects">
         {projectData.map((project) => (
           <div className="projectCard" key={project.id}>

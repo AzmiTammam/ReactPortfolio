@@ -10,7 +10,7 @@ function Experience() {
 
   return (
     <div className="experience" id="#experience">
-          <h5 className="expTitle">Experience</h5>
+          <h1 className="expTitle">Experience</h1>
       <div className="expContainer">
         <aside className="companyName">
           <ul>
