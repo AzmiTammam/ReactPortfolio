@@ -38,12 +38,25 @@ function Header() {
       </div>
       <div className="socialLinks">
             <ul>
-                  <a href={resume} target="_blank" rel="noreferrer" >
-                        <li><span><BsDownload /></span> Download Resume</li>
-                        </a>
-                  <a href="mailto:azmiTammam@gmail.com"><li><span><HiOutlineMail /></span> Send an email</li></a>
-                  <a href="https://www.linkedin.com/in/azzmmii/" target="_blank" rel="noopener noreferrer"><li><span><FaLinkedinIn /></span> LinkedIn</li></a>
-                  <a href="https://github.com/AzmiTammam" target="_blank" rel="noopener noreferrer"><li><span><BsGithub /></span> Github</li></a>
+                  <li><a href={resume} target="_blank" rel="noreferrer" >
+                    <span><BsDownload /></span> Download Resume</a>
+                        </li>
+                    <li>
+                  <a href="mailto:azmiTammam@gmail.com">
+                  <span><HiOutlineMail /></span> Send an email
+                    </a>
+                    </li>
+                    <li>
+                  <a href="https://www.linkedin.com/in/azzmmii/" target="_blank" rel="noopener noreferrer">
+                  <span><FaLinkedinIn /></span> LinkedIn
+                    
+                    </a>
+                    </li>
+                    <li>
+                  <a href="https://github.com/AzmiTammam" target="_blank" rel="noopener noreferrer">
+                  <span><BsGithub /></span> Github
+                      </a>
+                      </li>
             </ul>
       </div>
       </div>

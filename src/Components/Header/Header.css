@@ -47,18 +47,20 @@ header {
   display: inline-flex;
 }
 
-.socialLinks ul a {
-  margin-right: 10px;
-}
-
 .socialLinks ul li {
   background: linear-gradient(#111111, #111111) padding-box,
     linear-gradient(to right, #d24074, #6518b4) border-box;
   color: #fff;
-  padding: 10px 20px;
   border: 2px solid transparent;
   border-radius: 5px;
   transition: all 0.3s ease-in;
+  margin-right: 10px;  
+}
+
+.socialLinks ul li a {
+  padding: 10px 20px;
+  display: inline-block;
+  color: white;
 }
 .socialLinks ul li:nth-last-child(odd) {
   background: linear-gradient(#111111, #111111) padding-box,
@@ -115,15 +117,17 @@ header {
     justify-content: space-around;
     flex-direction: row;
   }
-  header .socialLinks ul a {
+  header .socialLinks ul li {
     margin: 5px 0;
     min-width: 42vw;
     max-width: 42vw;
-  }
-  header .socialLinks ul li {
-    padding: 10px 0px 10px 7px;
     text-align: left;
   }
+  .socialLinks ul li a {
+    padding: 10px 0px 10px 10px;
+    width: 100%;
+  }
+  
   .infoSection .about {
     max-width: 95vw;
     margin-top: 7px;
@@ -141,7 +145,7 @@ header {
 }
 
 @media (max-width: 376px) {
-  header .socialLinks ul a {
+  header .socialLinks ul li a {
     margin: 5px 0;
     min-width: 48vw;
     max-width: 48vw;
