@@ -29,8 +29,9 @@
 } */
 
 .projects h1 {
-  margin-left: 70px;
-  font-size: 18px;
+  font-size: 22px;
+  margin-left: 50px;
+  text-transform: uppercase;
 }
 
 .projects h1::after {
