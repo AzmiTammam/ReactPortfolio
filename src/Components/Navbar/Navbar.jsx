@@ -16,9 +16,9 @@ function Navbar() {
                   </div>
                   <div className="navLinks">
                   <ul>
-                        <li><Link to="#projects" spy={true} smooth={true} offset={50} duration={500}>Projects</Link></li>
-                        <li><Link to="#header" spy={true} smooth={true} offset={50} duration={500}>Resume</Link></li>
-                        <li><Link to="#experience" spy={true} smooth={true} offset={50} duration={500}>Experience</Link></li>
+                        <li><Link to="/#projects" spy={true} smooth={true} offset={50} duration={500}>Projects</Link></li>
+                        <li><Link to="/#header" spy={true} smooth={true} offset={50} duration={500}>Resume</Link></li>
+                        <li><Link to="/#experience" spy={true} smooth={true} offset={50} duration={500}>Experience</Link></li>
                         <li><Link to="/login">Login</Link></li>
                         <li><MdOutlineDarkMode /></li>
                   </ul>
