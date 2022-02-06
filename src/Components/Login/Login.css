@@ -9,7 +9,7 @@
       display: flex;
       justify-content: center;
       flex-direction: row;
-      padding-top: 30px;
+      padding: 45px 0 100px;
 }
 
 .login .loginContainer .username input, .login .loginContainer .password input {
