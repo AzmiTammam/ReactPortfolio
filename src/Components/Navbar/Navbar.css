@@ -20,6 +20,10 @@ nav {
   border-bottom: 1px solid #c4c4c40c;
 }
 
+nav .headTitle h3 a {
+  color: #fff;
+}
+
 .navLinks ul {
   list-style: none;
 }
