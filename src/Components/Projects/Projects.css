@@ -80,9 +80,10 @@
   display: inline-flex;
 }
 
-.containerProjects .projectCard .tags ul li::after {
+.containerProjects .projectCard .tags ul li:not(:last-child):after {
   content: "\00a0-\00a0";
 }
+
 
 .containerProjects .projectCard .buttons {
   padding: 0 0 10px;
