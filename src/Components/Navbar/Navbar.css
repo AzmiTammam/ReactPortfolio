@@ -44,3 +44,68 @@ nav .headTitle h3 a {
   color: #c4c4c4;
   transition: all 0.3s ease-in;
 }
+
+nav .navLinks ul .mobileNav {
+  display: none;
+  color: #fff;
+  background-color: transparent;
+  border: 0;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 769px) {
+  nav .navLinks ul .mobileNav {
+    display: inline-block;
+  }
+  nav {
+    position: fixed;
+    background-color: #111111;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 1px solid #313131;
+    display: flex;
+    flex-direction: column;
+  }
+  .hideLi {
+    display: none !important;
+  }
+  .navLinks ul .hum {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    width: 100vw;
+    text-align: center;
+    /* align-items: center; */
+    font-size: 1.1em;
+  }
+  .mobileNav {
+    position: absolute;
+    top: 30px;
+    left: 720px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .mobileNav {
+    position: absolute;
+    top: 30px;
+    left: 390px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .mobileNav {
+    position: absolute;
+    top: 27px;
+    left: 345px;
+  }
+}
+
+@media screen and (max-width: 321px) { 
+  .mobileNav {
+    position: absolute;
+    top: 27px;
+    left: 285px;
+  }
+}
