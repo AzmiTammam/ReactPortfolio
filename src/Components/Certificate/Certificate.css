@@ -1,0 +1,167 @@
+.containerCertificate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 70px 75px 150px;
+  flex-wrap: wrap;
+  max-width: 98vw;
+  position: relative;
+}
+
+/* .certificate::before{
+      content: " ";
+      display: block;
+      width: 550px;
+      height: 1.5px;
+      background: linear-gradient(to right, #f4426c, #6964de) padding-box;
+      margin: 0 auto 55px;
+      border-radius: 35%;
+    }
+    
+    .certificate::after{
+      content: " ";
+      display: block;
+      width: 550px;
+      height: 1.5px;
+      background: linear-gradient(to right, #f4426c, #6964de) padding-box;
+      margin: 0 auto 55px;
+      border-radius: 35%;
+    } */
+
+.certificate h1 {
+  font-size: 22px;
+  margin-left: 50px;
+  text-transform: uppercase;
+}
+
+.certificate h1::after {
+  content: " ";
+  display: block;
+  width: 75px;
+  height: 2px;
+  background: linear-gradient(to right, #f4426c, #6964de) padding-box;
+  margin-top: 4px;
+}
+
+.containerCertificate .certificateCard {
+  max-width: 302px;
+  max-height: 435px;
+  padding: 10px 0 10px;
+  border: 1px solid rgba(17, 17, 17, 0.247);
+  background-color: rgba(17, 17, 17, 0.247);
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.containerCertificate .certificateCard img {
+  max-width: 300px;
+  max-height: 200px;
+  border: 2px solid rgb(17, 17, 17);
+  margin: 0 auto;
+  border-radius: 7px;
+}
+
+.containerCertificate .certificateCard p.title {
+  padding: 10px 10px 0px 0px;
+  font-size: 18px;
+}
+
+.containerCertificate .certificateCard p.description {
+  padding: 10px 10px 10px 0px;
+  color: #c4c4c4;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: pre-line;
+}
+
+.containerCertificate .certificateCard .info img {
+      background-color: rgb(255, 255, 255);
+      max-width: 100px;
+      min-width: 100px;
+      max-height: 35px;
+      min-height: 35px;
+      padding: 5px;
+      border-radius: 5px;
+}
+.containerCertificate .certificateCard .buttons {
+  padding: 0 0 10px;
+}
+
+.certificate .containerCertificate .buttons .socialLinks span {
+  color: #fff;
+  font-size: 11px;
+}
+
+@media (max-width: 768px) {
+  .containerCertificate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px 35px 150px;
+    flex-wrap: wrap;
+    max-width: 98vw;
+    position: relative;
+  }
+  .containerCertificate .certificateCard p.description {
+    padding: 10px 10px 10px 0px;
+    color: #c4c4c4;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (max-width: 426px) {
+  .containerCertificate {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding: 70px 0px 70px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    position: relative;
+    align-content: center;
+  }
+
+  .containerCertificate .certificateCard img {
+    max-width: 90vw;
+  }
+
+  .containerCertificate .certificateCard {
+    max-width: 90vw;
+    max-height: 98vh;
+  }
+
+  .containerCertificate .certificateCard .body .buttons {
+    max-width: 60%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .certificate h1 {
+    margin-left: 15px;
+    font-size: 1.1em;
+  }
+  .certificate .socialLinks ul li a {
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .containerCertificate {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding: 70px 0px 70px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    position: relative;
+    align-content: center;
+  }
+  .certificate .socialLinks ul li a {
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+  }
+}
